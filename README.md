@@ -3,14 +3,14 @@
 - neurons for the hidden layer (with bias ($b$)) is
 
 ```math
-H_{n, l}= 1/ 1+ exp( -(\sum_{j=1}^{N}w_{j} * I_{j})+b_{k}) ) 
+H_{n, l}= 1/ ( 1+ exp( -(\sum_{j=1}^{N}w_{j} * I_{j})+b_{k}) )) 
 ```
 where $n\in\\{1,2,.,5\\}$ in _layer_ ($l$) $\in\\{1,2,.,9\\}$ and $k\in\\{1,2\\}$
 
 - neuron for the final output layer (with bias($b$)) is
 
 ```math
-O = 1/ 1+ exp( -(\sum_{j=1}^{N}w_{j} * H_{n, l})+b_{k}) )
+O = 1/ ( 1+ exp( -(\sum_{j=1}^{N}w_{j} * H_{n, l})+b_{k}) )) 
 ```
 
 
